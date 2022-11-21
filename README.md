@@ -268,10 +268,17 @@ Laravel version, but if you try it with a version other that the tested ones and
 **Answer:** The easiest way is to publish the configuration file, and change the `cookie_prefix` field. This will force
 the plugin to show again.
 
+## Changelog
 
+Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
 
+## Contributing
 
+Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
+## Credits
+
+- [Aklilu Mandefro](https://github.com/Aklilu-Mandefro)
 
 
 ## License
