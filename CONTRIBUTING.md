@@ -3,7 +3,7 @@
 When contributing to this repository, please first discuss the change you wish to make via issue,
 email, or any other method with the owners of this repository before making a change.
 
-Please note we have a code of conduct, please follow it in all your interactions with the project.
+Please note I have a code of conduct, please follow it in all your interactions with the project.
 
 ## Pull Request Process
 
@@ -18,16 +18,16 @@ Please note we have a code of conduct, please follow it in all your interactions
 
 ## Code of Conduct
 
-### Our Pledge
+### My Pledge
 
-In the interest of fostering an open and welcoming environment, we as
-contributors and maintainers pledge to making participation in our project and
-our community a harassment-free experience for everyone, regardless of age, body
+In the interest of fostering an open and welcoming environment, I as
+contributor and maintainer pledge to making participation in my project and
+my community a harassment-free experience for everyone, regardless of age, body
 size, disability, ethnicity, gender identity and expression, level of experience,
 nationality, personal appearance, race, religion, or sexual identity and
 orientation.
 
-### Our Standards
+### my Standards
 
 Examples of behavior that contributes to creating a positive environment
 include:
@@ -49,7 +49,7 @@ Examples of unacceptable behavior by participants include:
 * Other conduct which could reasonably be considered inappropriate in a
   professional setting
 
-### Our Responsibilities
+### My Responsibilities
 
 Project maintainers are responsible for clarifying the standards of acceptable
 behavior and are expected to take appropriate and fair corrective action in
