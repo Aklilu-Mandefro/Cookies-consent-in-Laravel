@@ -1,22 +1,7 @@
-# Laravel Cookies Consent Plugin - Make your Laravel app compliant with the EU GDPR cookie law
+#  Cookies Consent Plugin - Using Laravel PHP
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/scify/laravel-cookies-consent.svg?style=flat-square)](https://packagist.org/packages/scify/laravel-cookies-consent)
-[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/scify/laravel-cookies-consent/run-tests?label=tests)](https://github.com/scify/laravel-cookies-consent/actions?query=workflow%3Arun-tests+branch%3Amain)
-[![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/scify/laravel-cookies-consent/Fix%20PHP%20code%20style%20issues?label=code%20style)](https://github.com/scify/laravel-cookies-consent/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
-[![Total Downloads](https://img.shields.io/packagist/dt/scify/laravel-cookies-consent.svg?style=flat-square)](https://packagist.org/packages/scify/laravel-cookies-consent)
-[![GitHub Issues](https://img.shields.io/github/issues/scify/laravel-cookies-consent)](https://img.shields.io/github/issues/scify/laravel-cookies-consent)
-[![GitHub Stars](https://img.shields.io/github/stars/scify/laravel-cookies-consent)](https://img.shields.io/github/stars/scify/laravel-cookies-consent)
-[![GitHub forks](https://img.shields.io/github/forks/scify/laravel-cookies-consent)](https://img.shields.io/github/forks/scify/laravel-cookies-consent)
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
-[![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/scify)
 
 ## About the plugin
-
-According to the [GDPR law](https://gdpr-info.eu/), every platform is required to allow the users to decide which cookie
-categories they will allow,
-and, if a cookie category is not allowed, the application should not use the functionality tied to that cookie.
 
 This plugin provides a simple cookie consent window through which the user can specify the cookies they would like to
 allow.
@@ -227,7 +212,7 @@ composer test
 **Question:** Is this plugin free to use?
 
 **Answer:** Yes. This plugin is totally free and developed as
-an [Open-Source project](https://github.com/scify/laravel-cookies-consent).
+an [Open-Source project](https://github.com/Aklilu-Mandefro/Cookies-consent-in-Laravel).
 
 ---
 
