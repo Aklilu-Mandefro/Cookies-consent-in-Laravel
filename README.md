@@ -251,16 +251,15 @@ php artisan vendor:publish \
 ```
 
 And add/change your own translations. If you add a new language, consider also opening
-a [pull request](https://github.com/scify/laravel-cookies-consent/pulls), in order for this language to be included in
+a [pull request](https://github.com/Aklilu-Mandefro/Cookies-consent-in-Laravel/pulls), in order for this language to be included in
 the plugin.
 
 ---
 
 **Question:** Does this plugin work with all Laravel versions?
 
-**Answer:** We have tested the plugin with Laravel 7, 8, and 9. The plugin's simplicity allows it to work with any
-Laravel version, but if you try it with a version other that the tested ones and it does not work, please open an issue
-on [GitHub](https://github.com/scify/laravel-cookies-consent/issues).
+**Answer:** I have tested the plugin with Laravel 7, 8, and 9. The plugin's simplicity allows it to work with any
+Laravel version, but if you try it with a version other that the tested ones and it does not work, please contact me at [Aklilu Mandefro](https://volunteer-tech.com/Aklilu).
 
 ---
 
@@ -269,17 +268,11 @@ on [GitHub](https://github.com/scify/laravel-cookies-consent/issues).
 **Answer:** The easiest way is to publish the configuration file, and change the `cookie_prefix` field. This will force
 the plugin to show again.
 
-## Changelog
 
-Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
 
-## Contributing
 
-Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
-## Credits
 
-- [SciFY Dev Team](https://github.com/scify)
 
 ## License
 
