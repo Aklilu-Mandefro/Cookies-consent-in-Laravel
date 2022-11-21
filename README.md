@@ -258,8 +258,9 @@ the plugin.
 
 **Question:** Does this plugin work with all Laravel versions?
 
-**Answer:** I have tested the plugin with Laravel 7, 8, and 9. The plugin's simplicity allows it to work with any
-Laravel version, but if you try it with a version other that the tested ones and it does not work, please contact me at [Aklilu Mandefro](https://volunteer-tech.com/Aklilu).
+**Answer:** We have tested the plugin with Laravel 7, 8, and 9. The plugin's simplicity allows it to work with any
+Laravel version, but if you try it with a version other that the tested ones and it does not work, please open an issue
+on [GitHub](https://github.com/Aklilu-Mandefro/Cookies-consent-in-Laravel/issues).
 
 ---
 
