@@ -1,0 +1,75 @@
+{
+    "name": "scify/laravel-cookies-consent",
+    "description": "A Laravel package that provides a Cookies consent floating window and publishes the Cookies for the different consent categories",
+    "keywords": [
+        "scify",
+        "laravel",
+        "laravel-cookies-consent",
+        "cookies",
+        "gdpr",
+        "laravel cookies",
+        "laravel gdpr"
+    ],
+    "homepage": "https://github.com/scify/laravel-cookies-consent",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Paul Isaris",
+            "email": "paulisaris@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.1"
+    },
+    "require-dev": {
+        "laravel/pint": "^1.0",
+        "nunomaduro/collision": "^6.0",
+        "nunomaduro/larastan": "^2.0.1",
+        "orchestra/testbench": "^7.0",
+        "pestphp/pest": "^1.21",
+        "pestphp/pest-plugin-laravel": "^1.1",
+        "phpstan/extension-installer": "^1.1",
+        "phpstan/phpstan-deprecation-rules": "^1.0",
+        "phpstan/phpstan-phpunit": "^1.0",
+        "phpunit/phpunit": "^9.5",
+        "spatie/laravel-ray": "^1.26"
+    },
+    "autoload": {
+        "psr-4": {
+            "SciFY\\LaravelCookiesConsent\\": "src",
+            "SciFY\\LaravelCookiesConsent\\Database\\Factories\\": "database/factories"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SciFY\\LaravelCookiesConsent\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "post-autoload-dump": "@php ./vendor/bin/testbench package:discover --ansi",
+        "analyse": "vendor/bin/phpstan analyse",
+        "test": "vendor/bin/pest",
+        "test-coverage": "vendor/bin/pest --coverage",
+        "format": "vendor/bin/pint"
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true,
+            "phpstan/extension-installer": true
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SciFY\\LaravelCookiesConsent\\LaravelCookiesConsentServiceProvider"
+            ],
+            "aliases": {
+                "LaravelCookiesConsent": "SciFY\\LaravelCookiesConsent\\Facades\\LaravelCookiesConsent"
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
